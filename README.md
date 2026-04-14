@@ -1,64 +1,64 @@
-# DragonMsg — Portfolio Edition
+# 🚀 DragonMsg — Messenger Portfolio
 
-Production-style messenger platform inspired by Telegram UX.
+Telegram-style messenger project with **web + backend + realtime + mobile direction**.
 
-## Why this project stands out
+## ✨ Highlights
 
-I built this as a **full-cycle product**: architecture, backend API, realtime transport, web client, deployment notes, and multi-platform direction.
+- ⚡ Realtime messaging via `REST + WebSocket (Socket.io)`
+- 🔐 Auth flow: phone + code
+- 💬 Core chat domain: users, chats, messages, attachments
+- 🧩 Clean split: `backend` / `web` / `deploy`
+- 🛠️ Production mindset: env setup, VPS + Nginx deployment docs
 
-- Realtime messaging architecture (REST + WebSocket)
-- Authentication flow (phone + code)
-- Chat domain modeling (users, chats, messages, attachments)
-- Clear separation: `backend` / `web` / deployment layer
-- Practical ops mindset: deployment docs, environment setup, troubleshooting notes
-
-## Tech Stack
+## 🧱 Tech Stack
 
 - **Frontend:** React, TypeScript, Vite
 - **Backend:** Node.js, Express, Socket.io
 - **Mobile direction:** Flutter
-- **Data layer:** in-memory + PostgreSQL-ready abstractions
-- **Infra:** Docker, Nginx, VPS deployment scripts
+- **Data layer:** in-memory + PostgreSQL-ready abstraction
+- **Infra:** Docker, Nginx, VPS scripts
 
-## Product Scope
+## 🧪 Product Scope
 
-Implemented and documented:
-
-- Auth flow (request code / verify)
-- User profile endpoints
+- Auth (`request-code`, `verify`)
+- Profile read/update
 - Chat list and chat creation
 - Message history and message send
-- Realtime message push via Socket.io
-- Attachment-ready message model
+- Realtime message delivery event
+- Attachment-ready message payloads
 
-## Visual Proof (Portfolio)
+## 🖼️ Screenshots
 
-- Real web screenshots (chat, profile modal, sidebar menu)
-- Additional mobile-style mock screens in `media/`
-  - `mobile-chat-mock.svg`
-  - `mobile-profile-mock.svg`
+### Web
 
-## What is public in this portfolio version
+![Web Chat Main](media/web-chat-main.png)
+![Web Profile Modal](media/web-profile-modal.png)
+![Web Sidebar Menu](media/web-sidebar-menu.png)
 
-This repository intentionally contains:
+### Mobile-style visuals
 
-- Architecture and product case-study
-- API contract summary
-- Deployment strategy and engineering decisions
-- Safe, reduced code snippets (non-sensitive)
+![Mobile Chat Mock](media/mobile-chat-mock.svg)
+![Mobile Profile Mock](media/mobile-profile-mock.svg)
 
-It intentionally does **not** contain full source code to protect project IP.
+## 📦 Public Format
 
-## Full demo / deep technical review
+This public portfolio repo contains:
 
-For recruiters and hiring teams:
+- Architecture and case study
+- API scope summary
+- Engineering decisions
+- Safe snippets only
 
-- I can provide private code walkthrough (live)
-- I can share a private access package under request
-- I can explain architecture trade-offs and scaling plan in detail
+Full source code is intentionally private (IP protection), but available via private review.
+
+## 🤝 For Recruiters
+
+- Live private walkthrough available
+- Deep-dive into architecture decisions available
+- Can explain scaling path (PostgreSQL, media storage, socket scaling)
 
 ---
 
-Contact note for CV:
+### CV one-liner
 
-> Built and shipped a Telegram-style messenger platform (web + backend + realtime transport), including auth, chat domain APIs, socket events, and deployment workflow. Public portfolio includes architecture and case-study; full code available via private review.
+Built and shipped a Telegram-style messenger platform with realtime transport, modular backend APIs, and deployment-ready infrastructure docs; public portfolio published with architecture and verified UI proof.
