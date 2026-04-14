@@ -31,14 +31,15 @@ Telegram-style messenger project with **web + backend + realtime + mobile direct
 
 ### Web
 
-![Web Chat Main](media/web-chat-main.png)
-![Web Profile Modal](media/web-profile-modal.png)
-![Web Sidebar Menu](media/web-sidebar-menu.png)
+![Web Chat Main](media/web-chat-main.jpg)
+![Web Profile Modal](media/web-profile-modal.jpg)
+![Web Sidebar Menu](media/web-sidebar-menu.jpg)
 
 ### Mobile-style visuals
 
 ![Mobile Chat Mock](media/mobile-chat-mock.svg)
 ![Mobile Profile Mock](media/mobile-profile-mock.svg)
+![Mobile Calls Mock](media/mobile-calls-mock.svg)
 
 ## 📦 Public Format
 
